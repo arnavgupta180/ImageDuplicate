@@ -10,13 +10,17 @@
 		0EACD731253DF860FAB505DA3106F469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		10440A0B3F4EB19C6E61D55B3897E1F8 /* Pods-ImageDuplicate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A8970AA1C8EC8F625FBD67C20A8AA4 /* Pods-ImageDuplicate_Example-dummy.m */; };
 		34B87E490F043CF293A55223B1FBE2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3CD3272ED7EE72B7F3B31D35C3FA9956 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A94BF8CD69B00D9EED163DD0CF58D /* ImageConstants.swift */; };
+		441D4D0EA3CAA3A5297B4FCE7B628615 /* DupicateAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AA4E5BB3180B0137C5C1A806A95F /* DupicateAssets.swift */; };
+		44D89B3C343B5DDE4D25F1377E04D05A /* ImageDuplicate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBC24E28293AF159B2D1430B36BD10 /* ImageDuplicate-dummy.m */; };
 		4FFFDDFE872B0578A8973321EA3AF3CB /* Pods-ImageDuplicate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E013D0B2B1627DB2BFED275504D7462E /* Pods-ImageDuplicate_Tests-dummy.m */; };
+		5979E8DA6DE9A023E55F3960917D9609 /* mainScript.sh in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCF9982F2E4F2ECBBB4E85C72C6778 /* mainScript.sh */; };
+		66E3401F395B76BF92DDDC88C7D0489A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8482D16FCAC8CB305FE37FF90E8E23A8 /* Pods-ImageDuplicate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC88D51E1FDAB73F2A13E776FB4A135 /* Pods-ImageDuplicate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84ABB0D3F5F96056A48D57A6FCE067D9 /* ImageDuplicate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9386E19C7EB1F0AB08D975E7B8F22547 /* ImageDuplicate-dummy.m */; };
-		A8C49CB13D84DCF357B25C8F2CBA4EF6 /* ImageDuplicate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789B2D600F0C5441841C1E3A6B1BE2DB /* ImageDuplicate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA2DAEB7059D3ABD07BBE5E28269B67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C29790718B8A72ABE69539B56AB129CA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF7CEDF34638E1B24A06133EC989C3 /* ReplaceMe.swift */; };
+		98D8A6210AAEBFBB235217EBC267DDD8 /* ImageDuplicate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518D4C1F655E0A3A4C8AC08851DD9381 /* ImageDuplicate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA835DBE16322A4CA2B17A77968DF0F /* ImageAssets.sh in Sources */ = {isa = PBXBuildFile; fileRef = DC504979A94141976080A91FEAA79D06 /* ImageAssets.sh */; };
 		F34D0D38071CBCD9ACBE55C7FC794222 /* Pods-ImageDuplicate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC668F015E7650CA08FE8CA6E320E39 /* Pods-ImageDuplicate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE293A01D2ECE6C932BB3BDF3213579F /* ShowDuplicatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71109680152D43B53515A8CB10AACC63 /* ShowDuplicatesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +41,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ABAEE8E6A95DFF0BB19841D01D725D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07FE2E6760A2621C5C8867BDC8B0D6A8 /* ImageDuplicate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-prefix.pch"; sourceTree = "<group>"; };
 		0B5C3046A48FDCB665EA08BB1F482B80 /* Pods_ImageDuplicate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageDuplicate_Example.framework; path = "Pods-ImageDuplicate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1330057D1E9010321C8B35C0BFC6E3E3 /* ImageDuplicate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageDuplicate.xcconfig; sourceTree = "<group>"; };
 		18E9D53483A71C0BFEEA1F66B08346A5 /* Pods-ImageDuplicate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageDuplicate_Example.modulemap"; sourceTree = "<group>"; };
+		2FCBC24E28293AF159B2D1430B36BD10 /* ImageDuplicate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageDuplicate-dummy.m"; sourceTree = "<group>"; };
+		3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageDuplicate.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		48743DEDF6705E137A828C58D3BC5D6B /* Pods-ImageDuplicate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Tests-Info.plist"; sourceTree = "<group>"; };
-		4923E3F1FBF0F3EC3965619837FADA8E /* ImageDuplicate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageDuplicate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4DEF9B4113D93190C2BA94A56AD2187D /* ImageDuplicate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageDuplicate.framework; path = ImageDuplicate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E2DD975BDFF651C21A0E4ABCD581D9F /* ImageDuplicate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-prefix.pch"; sourceTree = "<group>"; };
+		518D4C1F655E0A3A4C8AC08851DD9381 /* ImageDuplicate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-umbrella.h"; sourceTree = "<group>"; };
 		67A670C88EA909023D6FBB77ACFFB96A /* Pods-ImageDuplicate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageDuplicate_Example-frameworks.sh"; sourceTree = "<group>"; };
-		789B2D600F0C5441841C1E3A6B1BE2DB /* ImageDuplicate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-umbrella.h"; sourceTree = "<group>"; };
-		797AFC89D57C74913E704D5EABCCD9FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		71109680152D43B53515A8CB10AACC63 /* ShowDuplicatesTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowDuplicatesTableViewController.swift; path = ImageDuplicate/Classes/ShowDuplicatesTableViewController.swift; sourceTree = "<group>"; };
+		72A4AA4E5BB3180B0137C5C1A806A95F /* DupicateAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DupicateAssets.swift; path = ImageDuplicate/Classes/DupicateAssets.swift; sourceTree = "<group>"; };
+		7CFCF9982F2E4F2ECBBB4E85C72C6778 /* mainScript.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = mainScript.sh; path = ImageDuplicate/Classes/mainScript.sh; sourceTree = "<group>"; };
 		7EB13615D78BBF0E3F42DBD9F9619711 /* Pods-ImageDuplicate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		91FFCD11242D5985A2A752E4439C02B1 /* Pods-ImageDuplicate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9386E19C7EB1F0AB08D975E7B8F22547 /* ImageDuplicate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageDuplicate-dummy.m"; sourceTree = "<group>"; };
-		97AF7CEDF34638E1B24A06133EC989C3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ImageDuplicate/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9CB45B92A8AA4D195ADDB0C554FEA913 /* ImageDuplicate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageDuplicate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EC88D51E1FDAB73F2A13E776FB4A135 /* Pods-ImageDuplicate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageDuplicate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A207EB527BC25048357A285B32E41420 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A3690378E7A6EB15418C64BCBE06DDBF /* Pods-ImageDuplicate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Example-Info.plist"; sourceTree = "<group>"; };
 		A825DE6ACC469627C68407B9DAD84E30 /* Pods-ImageDuplicate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageDuplicate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8682188D20E61CEFE0DBE3B849214E4 /* ImageDuplicate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageDuplicate.modulemap; sourceTree = "<group>"; };
 		A99C3C25AA06266288DDA77C1BFE2EF2 /* Pods-ImageDuplicate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageDuplicate_Tests.modulemap"; sourceTree = "<group>"; };
 		ACC668F015E7650CA08FE8CA6E320E39 /* Pods-ImageDuplicate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageDuplicate_Example-umbrella.h"; sourceTree = "<group>"; };
+		AD7A94BF8CD69B00D9EED163DD0CF58D /* ImageConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageConstants.swift; path = ImageDuplicate/Classes/ImageConstants.swift; sourceTree = "<group>"; };
 		B1A8970AA1C8EC8F625FBD67C20A8AA4 /* Pods-ImageDuplicate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageDuplicate_Example-dummy.m"; sourceTree = "<group>"; };
 		BE466CF8794E23005756951BA764AA6A /* Pods-ImageDuplicate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0500207C235CB5E238BC6129A05B70A /* ImageDuplicate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageDuplicate.modulemap; sourceTree = "<group>"; };
+		C9EB4B885FF62B97E3DA012E21EDDF25 /* ImageDuplicate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageDuplicate-Info.plist"; sourceTree = "<group>"; };
 		D1F2FA7B241F8A29483E1118BDF2900F /* Pods-ImageDuplicate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC504979A94141976080A91FEAA79D06 /* ImageAssets.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = ImageAssets.sh; path = ImageDuplicate/Classes/ImageAssets.sh; sourceTree = "<group>"; };
 		E013D0B2B1627DB2BFED275504D7462E /* Pods-ImageDuplicate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageDuplicate_Tests-dummy.m"; sourceTree = "<group>"; };
 		E14E43CE06C5A0DE8295F4E2C8A4DDC0 /* Pods-ImageDuplicate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3894C40329C2C1328F47C6E0473A88C /* Pods_ImageDuplicate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageDuplicate_Tests.framework; path = "Pods-ImageDuplicate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB541FF2A49059A0B186394E200653BD /* ImageDuplicate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageDuplicate-Info.plist"; sourceTree = "<group>"; };
 		F27B49BD09DA1BA8219178E9A2EFEDF3 /* Pods-ImageDuplicate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageDuplicate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F62304193382F4C7CBED31C3FD489050 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FD46BBFBB740DDE5E03C83E9C42EAD5B /* Pods-ImageDuplicate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,14 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65E4683B047E2718B9662685C5F9FE79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA2DAEB7059D3ABD07BBE5E28269B67C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D355F49AF47188B25155B548BCD913F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,29 +96,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAF05E34623234B704FF6D7F8F649651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E3401F395B76BF92DDDC88C7D0489A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3250FD1CF4BDCF3E1411B572417E54BF /* Development Pods */ = {
+		3837DFE7F9311DC24FC54BE49CEB7396 /* ImageDuplicate */ = {
 			isa = PBXGroup;
 			children = (
-				ED45EAF778360C8E778F5D91488FA274 /* ImageDuplicate */,
+				72A4AA4E5BB3180B0137C5C1A806A95F /* DupicateAssets.swift */,
+				DC504979A94141976080A91FEAA79D06 /* ImageAssets.sh */,
+				AD7A94BF8CD69B00D9EED163DD0CF58D /* ImageConstants.swift */,
+				7CFCF9982F2E4F2ECBBB4E85C72C6778 /* mainScript.sh */,
+				71109680152D43B53515A8CB10AACC63 /* ShowDuplicatesTableViewController.swift */,
+				9EC4DC0ED1E46BB820B5549EEC41B6EE /* Pod */,
+				5F55B72911054C42C48EF45D17CED497 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		409C9A2DD5AFFCE5D51F8D90051F3849 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0500207C235CB5E238BC6129A05B70A /* ImageDuplicate.modulemap */,
-				1330057D1E9010321C8B35C0BFC6E3E3 /* ImageDuplicate.xcconfig */,
-				9386E19C7EB1F0AB08D975E7B8F22547 /* ImageDuplicate-dummy.m */,
-				EB541FF2A49059A0B186394E200653BD /* ImageDuplicate-Info.plist */,
-				5E2DD975BDFF651C21A0E4ABCD581D9F /* ImageDuplicate-prefix.pch */,
-				789B2D600F0C5441841C1E3A6B1BE2DB /* ImageDuplicate-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageDuplicate";
+			name = ImageDuplicate;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		43318E2F9F2EDE1C90FC2E00CD17E846 /* Products */ = {
@@ -131,14 +132,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69B982D490FF18FD2141A81C2975094B /* Pod */ = {
+		4AE9613BF38214E3B7E1C10594DC5536 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4923E3F1FBF0F3EC3965619837FADA8E /* ImageDuplicate.podspec */,
-				0ABAEE8E6A95DFF0BB19841D01D725D1 /* LICENSE */,
-				797AFC89D57C74913E704D5EABCCD9FE /* README.md */,
+				3837DFE7F9311DC24FC54BE49CEB7396 /* ImageDuplicate */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F55B72911054C42C48EF45D17CED497 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8682188D20E61CEFE0DBE3B849214E4 /* ImageDuplicate.modulemap */,
+				3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */,
+				2FCBC24E28293AF159B2D1430B36BD10 /* ImageDuplicate-dummy.m */,
+				C9EB4B885FF62B97E3DA012E21EDDF25 /* ImageDuplicate-Info.plist */,
+				07FE2E6760A2621C5C8867BDC8B0D6A8 /* ImageDuplicate-prefix.pch */,
+				518D4C1F655E0A3A4C8AC08851DD9381 /* ImageDuplicate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageDuplicate";
 			sourceTree = "<group>";
 		};
 		8708FAFFD02C8BBB69D9582B22B793E1 /* Targets Support Files */ = {
@@ -148,6 +161,16 @@
 				B081713BC8E75DC870CB4B7EBE8D97CA /* Pods-ImageDuplicate_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9EC4DC0ED1E46BB820B5549EEC41B6EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9CB45B92A8AA4D195ADDB0C554FEA913 /* ImageDuplicate.podspec */,
+				A207EB527BC25048357A285B32E41420 /* LICENSE */,
+				F62304193382F4C7CBED31C3FD489050 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		AAA6013CD1EE0C0C1851640CC0C19421 /* Pods-ImageDuplicate_Example */ = {
@@ -195,7 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3250FD1CF4BDCF3E1411B572417E54BF /* Development Pods */,
+				4AE9613BF38214E3B7E1C10594DC5536 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				43318E2F9F2EDE1C90FC2E00CD17E846 /* Products */,
 				8708FAFFD02C8BBB69D9582B22B793E1 /* Targets Support Files */,
@@ -208,17 +231,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ED45EAF778360C8E778F5D91488FA274 /* ImageDuplicate */ = {
-			isa = PBXGroup;
-			children = (
-				97AF7CEDF34638E1B24A06133EC989C3 /* ReplaceMe.swift */,
-				69B982D490FF18FD2141A81C2975094B /* Pod */,
-				409C9A2DD5AFFCE5D51F8D90051F3849 /* Support Files */,
-			);
-			name = ImageDuplicate;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +252,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1AB2BB0B3D96177AD05D4A072C4365A /* Headers */ = {
+		E3BE5106158AFDC4E9401E1967FFBF1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C49CB13D84DCF357B25C8F2CBA4EF6 /* ImageDuplicate-umbrella.h in Headers */,
+				98D8A6210AAEBFBB235217EBC267DDD8 /* ImageDuplicate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +265,12 @@
 /* Begin PBXNativeTarget section */
 		29EEDCF7D2685D0BDBEC10E82EB36431 /* ImageDuplicate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F9F97BE9319EEEE17E06FAEE2E6509B /* Build configuration list for PBXNativeTarget "ImageDuplicate" */;
+			buildConfigurationList = 6DB9620BE79EA9AC9D919C165AB3AA61 /* Build configuration list for PBXNativeTarget "ImageDuplicate" */;
 			buildPhases = (
-				F1AB2BB0B3D96177AD05D4A072C4365A /* Headers */,
-				AF36466BEDB019DB5D20B9DE8D284195 /* Sources */,
-				65E4683B047E2718B9662685C5F9FE79 /* Frameworks */,
-				D42F4395336A1EBA88E768554DE3B58C /* Resources */,
+				E3BE5106158AFDC4E9401E1967FFBF1E /* Headers */,
+				9A6390709470265EEE592A345EE44629 /* Sources */,
+				DAF05E34623234B704FF6D7F8F649651 /* Frameworks */,
+				61E1D67776035CA4775670E0C3F9B29A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,14 +355,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		976B09B104963678E6CF48B08C0AB1CC /* Resources */ = {
+		61E1D67776035CA4775670E0C3F9B29A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D42F4395336A1EBA88E768554DE3B58C /* Resources */ = {
+		976B09B104963678E6CF48B08C0AB1CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,12 +380,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF36466BEDB019DB5D20B9DE8D284195 /* Sources */ = {
+		9A6390709470265EEE592A345EE44629 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ABB0D3F5F96056A48D57A6FCE067D9 /* ImageDuplicate-dummy.m in Sources */,
-				C29790718B8A72ABE69539B56AB129CA /* ReplaceMe.swift in Sources */,
+				441D4D0EA3CAA3A5297B4FCE7B628615 /* DupicateAssets.swift in Sources */,
+				CDA835DBE16322A4CA2B17A77968DF0F /* ImageAssets.sh in Sources */,
+				3CD3272ED7EE72B7F3B31D35C3FA9956 /* ImageConstants.swift in Sources */,
+				44D89B3C343B5DDE4D25F1377E04D05A /* ImageDuplicate-dummy.m in Sources */,
+				5979E8DA6DE9A023E55F3960917D9609 /* mainScript.sh in Sources */,
+				FE293A01D2ECE6C932BB3BDF3213579F /* ShowDuplicatesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +419,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3833F737C5137D29139CEF2EE48C27A2 /* Debug */ = {
+		5E7B5C0F4F8AE641BCBAC2C76FCEB4FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1330057D1E9010321C8B35C0BFC6E3E3 /* ImageDuplicate.xcconfig */;
+			baseConfigurationReference = 3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -419,7 +436,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
 				PRODUCT_MODULE_NAME = ImageDuplicate;
@@ -427,12 +444,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5EFB1EB5AA8BD91B67CAEF7C0EC9B8BD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -468,6 +486,38 @@
 			};
 			name = Release;
 		};
+		649A7398A5E05E5940E1FBB79AEE234A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
+				PRODUCT_MODULE_NAME = ImageDuplicate;
+				PRODUCT_NAME = ImageDuplicate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9277A9D27E6AEF11841F4D8D33B5EA6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E14E43CE06C5A0DE8295F4E2C8A4DDC0 /* Pods-ImageDuplicate_Example.release.xcconfig */;
@@ -495,38 +545,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A144B9589BF79B6C9E95BF7C2E0987FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1330057D1E9010321C8B35C0BFC6E3E3 /* ImageDuplicate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
-				PRODUCT_MODULE_NAME = ImageDuplicate;
-				PRODUCT_NAME = ImageDuplicate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -745,11 +763,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F9F97BE9319EEEE17E06FAEE2E6509B /* Build configuration list for PBXNativeTarget "ImageDuplicate" */ = {
+		6DB9620BE79EA9AC9D919C165AB3AA61 /* Build configuration list for PBXNativeTarget "ImageDuplicate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3833F737C5137D29139CEF2EE48C27A2 /* Debug */,
-				A144B9589BF79B6C9E95BF7C2E0987FF /* Release */,
+				649A7398A5E05E5940E1FBB79AEE234A /* Debug */,
+				5E7B5C0F4F8AE641BCBAC2C76FCEB4FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
