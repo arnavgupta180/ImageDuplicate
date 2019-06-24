@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageDuplicate_Example' do
+  pod 'ImageDuplicate', :path => '../'
+
+  target 'ImageDuplicate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
