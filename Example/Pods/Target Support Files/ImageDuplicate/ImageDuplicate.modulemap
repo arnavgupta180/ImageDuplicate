@@ -1,0 +1,6 @@
+framework module ImageDuplicate {
+  umbrella header "ImageDuplicate-umbrella.h"
+
+  export *
+  module * { export * }
+}

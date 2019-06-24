@@ -1,0 +1,6 @@
+framework module Pods_ImageDuplicate_Tests {
+  umbrella header "Pods-ImageDuplicate_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

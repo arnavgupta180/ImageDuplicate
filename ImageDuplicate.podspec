@@ -9,7 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageDuplicate'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ImageDuplicate.'
+  s.swift_version = '5.0'
+
+  s.summary          = 'Elegant developer tool to find image duplicates'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +20,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ ImageDuplicateFinder is a developer tool to find duplicate images. Your duplicate images can be images having same data or same images present in different bundles. It will give you paths of that images.This will reduce the app size of the app as well
                        DESC
 
-  s.homepage         = 'https://github.com/codegeeker180/ImageDuplicate'
+  s.homepage         = 'https://github.com/arnavgupta180/Test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'codegeeker180' => 'arnav.gupta@tokopedia.com' }
-  s.source           = { :git => 'https://github.com/codegeeker180/ImageDuplicate.git', :tag => s.version.to_s }
+  s.author           = { 'arnavgupta180' => 'arnavgupta180@gmail.com' }
+  s.source           = { :git => 'https://github.com/arnavgupta180/Test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ImageDuplicate/Classes/**/*'
   

@@ -1,0 +1,16 @@
+PODS:
+  - ImageDuplicate (0.1.0)
+
+DEPENDENCIES:
+  - ImageDuplicate (from `../`)
+
+EXTERNAL SOURCES:
+  ImageDuplicate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageDuplicate: 51de161e9b09280e951a53ccebf18983d6dc5066
+
+PODFILE CHECKSUM: d44c1354c0835f28a1108c24fae323425261df58
+
+COCOAPODS: 1.7.2

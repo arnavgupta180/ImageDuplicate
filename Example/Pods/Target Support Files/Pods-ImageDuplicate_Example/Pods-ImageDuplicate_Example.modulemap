@@ -1,0 +1,6 @@
+framework module Pods_ImageDuplicate_Example {
+  umbrella header "Pods-ImageDuplicate_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
