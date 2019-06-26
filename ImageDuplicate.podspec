@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageDuplicate'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.swift_version = '5.0'
 
   s.summary          = 'Elegant developer tool to find image duplicates'
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ImageDuplicate/Classes/**/*'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'ImageDuplicate' => ['ImageDuplicate/Assets/*.png']
