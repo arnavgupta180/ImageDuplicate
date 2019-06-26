@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
  ImageDuplicateFinder is a developer tool to find duplicate images. Your duplicate images can be images having same data or same images present in different bundles. It will give you paths of that images.This will reduce the app size of the app as well
                        DESC
 
-  s.homepage         = 'https://github.com/arnavgupta180/Test'
+  s.homepage         = 'https://github.com/arnavgupta180/ImageDuplicate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arnavgupta180' => 'arnavgupta180@gmail.com' }
-  s.source           = { :git => 'https://github.com/arnavgupta180/Test.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/arnavgupta180/ImageDuplicate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
