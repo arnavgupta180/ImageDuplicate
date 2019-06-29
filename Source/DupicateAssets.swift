@@ -9,26 +9,35 @@
 import Foundation
 import UIKit
 
-public class DuplicateAssets{
+
+internal class DuplicateAssets{
     
-    @objc  public func findDuplicates() {
-        var asset: [(data: Data?, name: String)] = []
-        
-        var duplicateNames: [[String: [String]]] = []
-        var duplicateImages: [[String: [String]]] = []
-        
-        var images = ImageConstants.imageNames
+    internal func findDuplicates(isAssetName: Bool) {
+        var images = AVImageConstants.imageNames
         images = Array(Set(images))
-        
+        if let vc = UIApplication.getTopViewControllerForAssetDup() {
+            let openDuplicates = ShowDuplicatesTableViewController()
+            openDuplicates.showDuplicates = isAssetName ? duplicateNames(images: images) : duplicateImages(images: images)
+            vc.present(openDuplicates, animated: true, completion: nil)
+        }
+    }
+    
+    private func duplicateNames(images: [String]) -> [[String: [String]]]{
+        var duplicates: [[String: [String]]] = []
         for image in images {
             var name = image
             name = "/" + image + ".imageset"
-            let containingNames = ImageConstants.imagePaths.filter({ $0.contains(name) })
+            let containingNames = AVImageConstants.imagePaths.filter({ $0.contains(name) })
             if containingNames.count > 1 {
-                duplicateNames.append([image : containingNames])
+                duplicates.append([image : containingNames])
             }
         }
-        
+        return duplicates
+    }
+    
+    private func duplicateImages(images: [String]) -> [[String: [String]]]{
+        var asset: [(data: Data?, name: String)] = []
+        var duplicates: [[String: [String]]] = []
         for imageName in images {
             let name = imageName
             var image: UIImage?
@@ -53,26 +62,21 @@ public class DuplicateAssets{
                     && !arrComp.contains("\(data.name) is equal to \(image.name)")
                     && data.data?.count == image.data?.count
                     && data.data == image.data {
-                    duplicateImages.append(self.findPathOfDuplicates(firstImage: image.name, secondImage: data.name))
+                    duplicates.append(self.findPathOfDuplicates(firstImage: image.name, secondImage: data.name))
                     arrComp.append("\(image.name) is equal to \(data.name)")
                 }
             }
         }
-        
-        if let vc = UIApplication.getTopViewControllerForAssetDup() {
-            let openDuplicates = ShowDuplicatesTableViewController()
-            openDuplicates.showDuplicates = duplicateImages
-            vc.present(openDuplicates, animated: true, completion: nil)
-        }
+        return duplicates
     }
     
-   public  func findPathOfDuplicates(firstImage: String, secondImage: String) -> [String: [String]]{
+    private func findPathOfDuplicates(firstImage: String, secondImage: String) -> [String: [String]]{
         var firstName = firstImage
         firstName = "/" + firstImage + ".imageset"
         var secondName = secondImage
         secondName = "/" + secondImage + ".imageset"
-        let firstNames = ImageConstants.imagePaths.filter({ $0.contains(firstName)})
-        let secondNames = ImageConstants.imagePaths.filter({ $0.contains(secondName)})
+        let firstNames = AVImageConstants.imagePaths.filter({ $0.contains(firstName)})
+        let secondNames = AVImageConstants.imagePaths.filter({ $0.contains(secondName)})
         let paths =  ["paths of \(firstImage)"] + firstNames + ["paths of \(secondImage)"] + secondNames
         return ["\(firstImage) == \(secondImage)" : paths]
     }

@@ -1,15 +1,13 @@
 //
-//  ShowDuplicatesTableViewController.swift
-//  Affiliate
+//  AssetDuplicateFinderViewController.swift
+//  ImageDuplicate
 //
-//  Created by Arnav on 13/06/19.
+//  Created by Arnav on 29/06/19.
 //
 
 import UIKit
 
-public class ShowDuplicatesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
-    
-    internal var showDuplicates: [[String : [String]]] = []
+public class AssetDuplicateFinder: UIViewController, UITableViewDataSource, UITableViewDelegate {
     internal var tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.grouped)
     internal var navigationView = UIView(frame: .zero)
     override public func loadView() {
@@ -25,21 +23,20 @@ public class ShowDuplicatesTableViewController: UIViewController, UITableViewDat
             tableView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             ])
     }
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
         tableView.keyboardDismissMode = .onDrag
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseableIdentifier")
         tableView.rowHeight = UITableView.automaticDimension
     }
-    
     override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         navigationView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 200)
         tableView.frame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64)
         let title = UILabel(frame: CGRect(x: UIScreen.main.bounds.midX - 80, y: 30, width: 160, height: 40))
-        title.text = "Same Image names"
+        title.text = "Asset Duplicate Finder"
         title.backgroundColor = .clear
         title.textColor = .black
         let button = UIButton(frame: CGRect(x: 20, y: 30, width: 60, height: 40))
@@ -50,36 +47,41 @@ public class ShowDuplicatesTableViewController: UIViewController, UITableViewDat
         navigationView.addSubview(button)
         navigationView.addSubview(title)
     }
-    
     @objc func buttonTapped(sender : UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
-    // MARK: - Table view data source
     
-    public func numberOfSections(in tableView: UITableView) -> Int {
-        return showDuplicates.count
+   @objc class func findDuplicates() {
+        if let vc = UIApplication.getTopViewControllerForAssetDup() {
+            let openDuplicates = AssetDuplicateFinder()
+            vc.present(openDuplicates, animated: true, completion: nil)
+        }
     }
-    
+}
+
+extension AssetDuplicateFinderViewController{
+    // MARK: - Table view data source
+
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return showDuplicates[section].first?.value.count ?? 0
+        return 2
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseableIdentifier", for: indexPath)
         cell.selectionStyle = .none
-        cell.textLabel?.text = showDuplicates[indexPath.section].first?.value[indexPath.row]
+        if indexPath.row == 0{
+            cell.textLabel?.text = "Duplicate images"
+            cell.detailTextLabel?.text = "hnghhmjhjjm,"
+        }else{
+            cell.textLabel?.text = "Duplicate image names"
+        }
         cell.textLabel?.numberOfLines = 0
         return cell
     }
-    public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        guard let header = view as? UITableViewHeaderFooterView else { return UIView()}
-        header.textLabel?.textAlignment = .center
-        header.textLabel?.text = showDuplicates[section].first?.key
-        header.textLabel?.textColor = .black
-        header.textLabel?.font = UIFont.boldSystemFont(ofSize: 24)
-        return header
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var isImageDuplicates : Bool = false
+        if indexPath.row == 0{
+            isImageDuplicates = true
+        }
     }
-    
-    
-    
 }
