@@ -83,6 +83,9 @@ extension AssetDuplicateFinder{
         var isImageDuplicates : Bool = false
         if indexPath.row == 0{
             isImageDuplicates = true
+
         }
+        let showDuplicates = DuplicateAssets()
+        showDuplicates.findDuplicates(isAssetName: isImageDuplicates)
     }
 }

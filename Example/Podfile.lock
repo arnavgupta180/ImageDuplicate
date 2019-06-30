@@ -1,5 +1,5 @@
 PODS:
-  - ImageDuplicate (0.1.0)
+  - ImageDuplicate (0.1.4)
 
 DEPENDENCIES:
   - ImageDuplicate (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ImageDuplicate: 5dfcbccab200a6ab456092ba6e962e75b6cff64e
+  ImageDuplicate: bdcf1f7ae265dbe9faaa21055bff935a17edb076
 
 PODFILE CHECKSUM: d44c1354c0835f28a1108c24fae323425261df58
 

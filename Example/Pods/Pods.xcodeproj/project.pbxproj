@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E92E8765D9C7F8D6254117955BD0EE7 /* ShowDuplicatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE36AB835C2B27786232DD343F1C0F0 /* ShowDuplicatesTableViewController.swift */; };
 		0EACD731253DF860FAB505DA3106F469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		10440A0B3F4EB19C6E61D55B3897E1F8 /* Pods-ImageDuplicate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A8970AA1C8EC8F625FBD67C20A8AA4 /* Pods-ImageDuplicate_Example-dummy.m */; };
+		1FA373D662CA91641343F410683FD36C /* ImageDuplicate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E023BA63A81BF7970EA20A55B56A123 /* ImageDuplicate-dummy.m */; };
 		34B87E490F043CF293A55223B1FBE2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3CD3272ED7EE72B7F3B31D35C3FA9956 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A94BF8CD69B00D9EED163DD0CF58D /* ImageConstants.swift */; };
-		441D4D0EA3CAA3A5297B4FCE7B628615 /* DupicateAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4AA4E5BB3180B0137C5C1A806A95F /* DupicateAssets.swift */; };
-		44D89B3C343B5DDE4D25F1377E04D05A /* ImageDuplicate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBC24E28293AF159B2D1430B36BD10 /* ImageDuplicate-dummy.m */; };
 		4FFFDDFE872B0578A8973321EA3AF3CB /* Pods-ImageDuplicate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E013D0B2B1627DB2BFED275504D7462E /* Pods-ImageDuplicate_Tests-dummy.m */; };
-		5979E8DA6DE9A023E55F3960917D9609 /* mainScript.sh in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCF9982F2E4F2ECBBB4E85C72C6778 /* mainScript.sh */; };
+		64D40485C8091DACC899D885EAD22096 /* AVImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31266938B8D4C9A982A06D7C22D455 /* AVImageConstants.swift */; };
 		66E3401F395B76BF92DDDC88C7D0489A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8482D16FCAC8CB305FE37FF90E8E23A8 /* Pods-ImageDuplicate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC88D51E1FDAB73F2A13E776FB4A135 /* Pods-ImageDuplicate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D8A6210AAEBFBB235217EBC267DDD8 /* ImageDuplicate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518D4C1F655E0A3A4C8AC08851DD9381 /* ImageDuplicate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDA835DBE16322A4CA2B17A77968DF0F /* ImageAssets.sh in Sources */ = {isa = PBXBuildFile; fileRef = DC504979A94141976080A91FEAA79D06 /* ImageAssets.sh */; };
+		8F3DDD51596075940B6E48F856AB852B /* DupicateAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFE5D0AA0ED3313DE78F19D544FB2BE /* DupicateAssets.swift */; };
+		98D8A6210AAEBFBB235217EBC267DDD8 /* ImageDuplicate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39AB0B4B117435B5E715A2452B5EF877 /* ImageDuplicate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51C7C472E599D7AFD47C823F3142397 /* AssetDuplicateFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F618726955C8FE0F538E340009CA9 /* AssetDuplicateFinder.swift */; };
+		EFAA9A7C9C3EF166179C5D89EF88B6A7 /* ImageAssets.sh in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BE1C43D6FD5BC4C037B18D65067A /* ImageAssets.sh */; };
 		F34D0D38071CBCD9ACBE55C7FC794222 /* Pods-ImageDuplicate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC668F015E7650CA08FE8CA6E320E39 /* Pods-ImageDuplicate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE293A01D2ECE6C932BB3BDF3213579F /* ShowDuplicatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71109680152D43B53515A8CB10AACC63 /* ShowDuplicatesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,41 +41,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07FE2E6760A2621C5C8867BDC8B0D6A8 /* ImageDuplicate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-prefix.pch"; sourceTree = "<group>"; };
 		0B5C3046A48FDCB665EA08BB1F482B80 /* Pods_ImageDuplicate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageDuplicate_Example.framework; path = "Pods-ImageDuplicate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D8BE1C43D6FD5BC4C037B18D65067A /* ImageAssets.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = ImageAssets.sh; path = Source/ImageAssets.sh; sourceTree = "<group>"; };
 		18E9D53483A71C0BFEEA1F66B08346A5 /* Pods-ImageDuplicate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageDuplicate_Example.modulemap"; sourceTree = "<group>"; };
-		2FCBC24E28293AF159B2D1430B36BD10 /* ImageDuplicate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageDuplicate-dummy.m"; sourceTree = "<group>"; };
-		3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageDuplicate.xcconfig; sourceTree = "<group>"; };
+		1C31266938B8D4C9A982A06D7C22D455 /* AVImageConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVImageConstants.swift; path = Source/AVImageConstants.swift; sourceTree = "<group>"; };
+		266D47FFC87A5E7D698EF320EBF98CF7 /* ImageDuplicate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageDuplicate-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39AB0B4B117435B5E715A2452B5EF877 /* ImageDuplicate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-umbrella.h"; sourceTree = "<group>"; };
 		48743DEDF6705E137A828C58D3BC5D6B /* Pods-ImageDuplicate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Tests-Info.plist"; sourceTree = "<group>"; };
 		4DEF9B4113D93190C2BA94A56AD2187D /* ImageDuplicate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageDuplicate.framework; path = ImageDuplicate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		518D4C1F655E0A3A4C8AC08851DD9381 /* ImageDuplicate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-umbrella.h"; sourceTree = "<group>"; };
+		547430A48E3C7F89D12E090743471925 /* ImageDuplicate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageDuplicate-prefix.pch"; sourceTree = "<group>"; };
 		67A670C88EA909023D6FBB77ACFFB96A /* Pods-ImageDuplicate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageDuplicate_Example-frameworks.sh"; sourceTree = "<group>"; };
-		71109680152D43B53515A8CB10AACC63 /* ShowDuplicatesTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowDuplicatesTableViewController.swift; path = ImageDuplicate/Classes/ShowDuplicatesTableViewController.swift; sourceTree = "<group>"; };
-		72A4AA4E5BB3180B0137C5C1A806A95F /* DupicateAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DupicateAssets.swift; path = ImageDuplicate/Classes/DupicateAssets.swift; sourceTree = "<group>"; };
-		7CFCF9982F2E4F2ECBBB4E85C72C6778 /* mainScript.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = mainScript.sh; path = ImageDuplicate/Classes/mainScript.sh; sourceTree = "<group>"; };
 		7EB13615D78BBF0E3F42DBD9F9619711 /* Pods-ImageDuplicate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E023BA63A81BF7970EA20A55B56A123 /* ImageDuplicate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageDuplicate-dummy.m"; sourceTree = "<group>"; };
 		91FFCD11242D5985A2A752E4439C02B1 /* Pods-ImageDuplicate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9CB45B92A8AA4D195ADDB0C554FEA913 /* ImageDuplicate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageDuplicate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FECF20A47D27A67CF280AB46E5924F /* ImageDuplicate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageDuplicate.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EC88D51E1FDAB73F2A13E776FB4A135 /* Pods-ImageDuplicate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageDuplicate_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A207EB527BC25048357A285B32E41420 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A3690378E7A6EB15418C64BCBE06DDBF /* Pods-ImageDuplicate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Example-Info.plist"; sourceTree = "<group>"; };
+		A7A1CEF2C1AF1E557A380D764075A6E4 /* ImageDuplicate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageDuplicate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A825DE6ACC469627C68407B9DAD84E30 /* Pods-ImageDuplicate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageDuplicate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8682188D20E61CEFE0DBE3B849214E4 /* ImageDuplicate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageDuplicate.modulemap; sourceTree = "<group>"; };
+		A99377A1C8E6AD558A625BCFB2A768E5 /* ImageDuplicate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageDuplicate.xcconfig; sourceTree = "<group>"; };
 		A99C3C25AA06266288DDA77C1BFE2EF2 /* Pods-ImageDuplicate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageDuplicate_Tests.modulemap"; sourceTree = "<group>"; };
 		ACC668F015E7650CA08FE8CA6E320E39 /* Pods-ImageDuplicate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageDuplicate_Example-umbrella.h"; sourceTree = "<group>"; };
-		AD7A94BF8CD69B00D9EED163DD0CF58D /* ImageConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageConstants.swift; path = ImageDuplicate/Classes/ImageConstants.swift; sourceTree = "<group>"; };
+		AEFE5D0AA0ED3313DE78F19D544FB2BE /* DupicateAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DupicateAssets.swift; path = Source/DupicateAssets.swift; sourceTree = "<group>"; };
 		B1A8970AA1C8EC8F625FBD67C20A8AA4 /* Pods-ImageDuplicate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageDuplicate_Example-dummy.m"; sourceTree = "<group>"; };
+		BB82E14E343BAB1B1556FA286460BDB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BE466CF8794E23005756951BA764AA6A /* Pods-ImageDuplicate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9EB4B885FF62B97E3DA012E21EDDF25 /* ImageDuplicate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageDuplicate-Info.plist"; sourceTree = "<group>"; };
+		C95E61BF776E2467E8A23FCE665148AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D1F2FA7B241F8A29483E1118BDF2900F /* Pods-ImageDuplicate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC504979A94141976080A91FEAA79D06 /* ImageAssets.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = ImageAssets.sh; path = ImageDuplicate/Classes/ImageAssets.sh; sourceTree = "<group>"; };
+		DDE36AB835C2B27786232DD343F1C0F0 /* ShowDuplicatesTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowDuplicatesTableViewController.swift; path = Source/ShowDuplicatesTableViewController.swift; sourceTree = "<group>"; };
 		E013D0B2B1627DB2BFED275504D7462E /* Pods-ImageDuplicate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageDuplicate_Tests-dummy.m"; sourceTree = "<group>"; };
 		E14E43CE06C5A0DE8295F4E2C8A4DDC0 /* Pods-ImageDuplicate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDuplicate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3894C40329C2C1328F47C6E0473A88C /* Pods_ImageDuplicate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageDuplicate_Tests.framework; path = "Pods-ImageDuplicate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27B49BD09DA1BA8219178E9A2EFEDF3 /* Pods-ImageDuplicate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageDuplicate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F62304193382F4C7CBED31C3FD489050 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F78F618726955C8FE0F538E340009CA9 /* AssetDuplicateFinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetDuplicateFinder.swift; path = Source/AssetDuplicateFinder.swift; sourceTree = "<group>"; };
 		FD46BBFBB740DDE5E03C83E9C42EAD5B /* Pods-ImageDuplicate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageDuplicate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,19 +107,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3837DFE7F9311DC24FC54BE49CEB7396 /* ImageDuplicate */ = {
+		1A054FD0449A6FD067D625F66D127BFB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				72A4AA4E5BB3180B0137C5C1A806A95F /* DupicateAssets.swift */,
-				DC504979A94141976080A91FEAA79D06 /* ImageAssets.sh */,
-				AD7A94BF8CD69B00D9EED163DD0CF58D /* ImageConstants.swift */,
-				7CFCF9982F2E4F2ECBBB4E85C72C6778 /* mainScript.sh */,
-				71109680152D43B53515A8CB10AACC63 /* ShowDuplicatesTableViewController.swift */,
-				9EC4DC0ED1E46BB820B5549EEC41B6EE /* Pod */,
-				5F55B72911054C42C48EF45D17CED497 /* Support Files */,
+				98FECF20A47D27A67CF280AB46E5924F /* ImageDuplicate.modulemap */,
+				A99377A1C8E6AD558A625BCFB2A768E5 /* ImageDuplicate.xcconfig */,
+				8E023BA63A81BF7970EA20A55B56A123 /* ImageDuplicate-dummy.m */,
+				266D47FFC87A5E7D698EF320EBF98CF7 /* ImageDuplicate-Info.plist */,
+				547430A48E3C7F89D12E090743471925 /* ImageDuplicate-prefix.pch */,
+				39AB0B4B117435B5E715A2452B5EF877 /* ImageDuplicate-umbrella.h */,
 			);
-			name = ImageDuplicate;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageDuplicate";
 			sourceTree = "<group>";
 		};
 		43318E2F9F2EDE1C90FC2E00CD17E846 /* Products */ = {
@@ -135,23 +134,24 @@
 		4AE9613BF38214E3B7E1C10594DC5536 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3837DFE7F9311DC24FC54BE49CEB7396 /* ImageDuplicate */,
+				659C94EE9C69157481BB9C5048DCC83F /* ImageDuplicate */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5F55B72911054C42C48EF45D17CED497 /* Support Files */ = {
+		659C94EE9C69157481BB9C5048DCC83F /* ImageDuplicate */ = {
 			isa = PBXGroup;
 			children = (
-				A8682188D20E61CEFE0DBE3B849214E4 /* ImageDuplicate.modulemap */,
-				3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */,
-				2FCBC24E28293AF159B2D1430B36BD10 /* ImageDuplicate-dummy.m */,
-				C9EB4B885FF62B97E3DA012E21EDDF25 /* ImageDuplicate-Info.plist */,
-				07FE2E6760A2621C5C8867BDC8B0D6A8 /* ImageDuplicate-prefix.pch */,
-				518D4C1F655E0A3A4C8AC08851DD9381 /* ImageDuplicate-umbrella.h */,
+				F78F618726955C8FE0F538E340009CA9 /* AssetDuplicateFinder.swift */,
+				1C31266938B8D4C9A982A06D7C22D455 /* AVImageConstants.swift */,
+				AEFE5D0AA0ED3313DE78F19D544FB2BE /* DupicateAssets.swift */,
+				14D8BE1C43D6FD5BC4C037B18D65067A /* ImageAssets.sh */,
+				DDE36AB835C2B27786232DD343F1C0F0 /* ShowDuplicatesTableViewController.swift */,
+				DA9E3ED731B984A15E9D001A45CFA171 /* Pod */,
+				1A054FD0449A6FD067D625F66D127BFB /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageDuplicate";
+			name = ImageDuplicate;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8708FAFFD02C8BBB69D9582B22B793E1 /* Targets Support Files */ = {
@@ -161,16 +161,6 @@
 				B081713BC8E75DC870CB4B7EBE8D97CA /* Pods-ImageDuplicate_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9EC4DC0ED1E46BB820B5549EEC41B6EE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9CB45B92A8AA4D195ADDB0C554FEA913 /* ImageDuplicate.podspec */,
-				A207EB527BC25048357A285B32E41420 /* LICENSE */,
-				F62304193382F4C7CBED31C3FD489050 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		AAA6013CD1EE0C0C1851640CC0C19421 /* Pods-ImageDuplicate_Example */ = {
@@ -233,6 +223,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA9E3ED731B984A15E9D001A45CFA171 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1CEF2C1AF1E557A380D764075A6E4 /* ImageDuplicate.podspec */,
+				BB82E14E343BAB1B1556FA286460BDB6 /* LICENSE */,
+				C95E61BF776E2467E8A23FCE665148AD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -268,7 +268,7 @@
 			buildConfigurationList = 6DB9620BE79EA9AC9D919C165AB3AA61 /* Build configuration list for PBXNativeTarget "ImageDuplicate" */;
 			buildPhases = (
 				E3BE5106158AFDC4E9401E1967FFBF1E /* Headers */,
-				9A6390709470265EEE592A345EE44629 /* Sources */,
+				52D6F9B0A28E2B29018A41A5F648F0D9 /* Sources */,
 				DAF05E34623234B704FF6D7F8F649651 /* Frameworks */,
 				61E1D67776035CA4775670E0C3F9B29A /* Resources */,
 			);
@@ -380,16 +380,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6390709470265EEE592A345EE44629 /* Sources */ = {
+		52D6F9B0A28E2B29018A41A5F648F0D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441D4D0EA3CAA3A5297B4FCE7B628615 /* DupicateAssets.swift in Sources */,
-				CDA835DBE16322A4CA2B17A77968DF0F /* ImageAssets.sh in Sources */,
-				3CD3272ED7EE72B7F3B31D35C3FA9956 /* ImageConstants.swift in Sources */,
-				44D89B3C343B5DDE4D25F1377E04D05A /* ImageDuplicate-dummy.m in Sources */,
-				5979E8DA6DE9A023E55F3960917D9609 /* mainScript.sh in Sources */,
-				FE293A01D2ECE6C932BB3BDF3213579F /* ShowDuplicatesTableViewController.swift in Sources */,
+				D51C7C472E599D7AFD47C823F3142397 /* AssetDuplicateFinder.swift in Sources */,
+				64D40485C8091DACC899D885EAD22096 /* AVImageConstants.swift in Sources */,
+				8F3DDD51596075940B6E48F856AB852B /* DupicateAssets.swift in Sources */,
+				EFAA9A7C9C3EF166179C5D89EF88B6A7 /* ImageAssets.sh in Sources */,
+				1FA373D662CA91641343F410683FD36C /* ImageDuplicate-dummy.m in Sources */,
+				0E92E8765D9C7F8D6254117955BD0EE7 /* ShowDuplicatesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,200 +419,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5E7B5C0F4F8AE641BCBAC2C76FCEB4FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
-				PRODUCT_MODULE_NAME = ImageDuplicate;
-				PRODUCT_NAME = ImageDuplicate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5EFB1EB5AA8BD91B67CAEF7C0EC9B8BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91FFCD11242D5985A2A752E4439C02B1 /* Pods-ImageDuplicate_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageDuplicate_Tests/Pods-ImageDuplicate_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageDuplicate_Tests/Pods-ImageDuplicate_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		649A7398A5E05E5940E1FBB79AEE234A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3044709F34218A5C4CC4738258842858 /* ImageDuplicate.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
-				PRODUCT_MODULE_NAME = ImageDuplicate;
-				PRODUCT_NAME = ImageDuplicate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9277A9D27E6AEF11841F4D8D33B5EA6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E14E43CE06C5A0DE8295F4E2C8A4DDC0 /* Pods-ImageDuplicate_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageDuplicate_Example/Pods-ImageDuplicate_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageDuplicate_Example/Pods-ImageDuplicate_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -663,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -676,11 +483,12 @@
 			};
 			name = Debug;
 		};
-		EE6BF2E739E0D3EC773CF85A174E9C39 /* Debug */ = {
+		1A19A2C902C45F1F86036C56DB57F196 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE466CF8794E23005756951BA764AA6A /* Pods-ImageDuplicate_Tests.debug.xcconfig */;
+			baseConfigurationReference = 91FFCD11242D5985A2A752E4439C02B1 /* Pods-ImageDuplicate_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -692,7 +500,202 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageDuplicate_Tests/Pods-ImageDuplicate_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageDuplicate_Tests/Pods-ImageDuplicate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E7B5C0F4F8AE641BCBAC2C76FCEB4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99377A1C8E6AD558A625BCFB2A768E5 /* ImageDuplicate.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
+				PRODUCT_MODULE_NAME = ImageDuplicate;
+				PRODUCT_NAME = ImageDuplicate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		649A7398A5E05E5940E1FBB79AEE234A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99377A1C8E6AD558A625BCFB2A768E5 /* ImageDuplicate.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageDuplicate/ImageDuplicate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageDuplicate/ImageDuplicate.modulemap";
+				PRODUCT_MODULE_NAME = ImageDuplicate;
+				PRODUCT_NAME = ImageDuplicate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77F4DD2D8C8717706A9259BEACE4625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14E43CE06C5A0DE8295F4E2C8A4DDC0 /* Pods-ImageDuplicate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageDuplicate_Example/Pods-ImageDuplicate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageDuplicate_Example/Pods-ImageDuplicate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEB981E992F21FAB3FD438CEC92D095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE466CF8794E23005756951BA764AA6A /* Pods-ImageDuplicate_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageDuplicate_Tests/Pods-ImageDuplicate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImageDuplicate_Tests/Pods-ImageDuplicate_Tests.modulemap";
@@ -709,11 +712,12 @@
 			};
 			name = Debug;
 		};
-		F6FCEADF27844C2BC49DA8E9F1A5D9FA /* Debug */ = {
+		BEE8112EEB6110A5863021627EC951F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EB13615D78BBF0E3F42DBD9F9619711 /* Pods-ImageDuplicate_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -725,7 +729,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageDuplicate_Example/Pods-ImageDuplicate_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ImageDuplicate_Example/Pods-ImageDuplicate_Example.modulemap";
@@ -748,8 +752,8 @@
 		0E66FC62138E79ADA8FD10AB4BE1056A /* Build configuration list for PBXNativeTarget "Pods-ImageDuplicate_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE6BF2E739E0D3EC773CF85A174E9C39 /* Debug */,
-				5EFB1EB5AA8BD91B67CAEF7C0EC9B8BD /* Release */,
+				BEB981E992F21FAB3FD438CEC92D095F /* Debug */,
+				1A19A2C902C45F1F86036C56DB57F196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +761,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -775,8 +779,8 @@
 		E0E4E9266217D3B1ABB41F354336081C /* Build configuration list for PBXNativeTarget "Pods-ImageDuplicate_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6FCEADF27844C2BC49DA8E9F1A5D9FA /* Debug */,
-				9277A9D27E6AEF11841F4D8D33B5EA6E /* Release */,
+				BEE8112EEB6110A5863021627EC951F7 /* Debug */,
+				77F4DD2D8C8717706A9259BEACE4625A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
