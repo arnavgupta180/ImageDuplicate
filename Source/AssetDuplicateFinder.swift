@@ -23,7 +23,7 @@ public class AssetDuplicateFinder: UIViewController, UITableViewDataSource, UITa
             tableView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             ])
     }
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
@@ -51,7 +51,7 @@ public class AssetDuplicateFinder: UIViewController, UITableViewDataSource, UITa
         self.dismiss(animated: true, completion: nil)
     }
     
-   @objc class func findDuplicates() {
+   @objc public class func findDuplicates() {
         if let vc = UIApplication.getTopViewControllerForAssetDup() {
             let openDuplicates = AssetDuplicateFinder()
             vc.present(openDuplicates, animated: true, completion: nil)

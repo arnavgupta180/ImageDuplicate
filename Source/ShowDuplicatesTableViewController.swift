@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class ShowDuplicatesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+ class ShowDuplicatesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     internal var showDuplicates: [[String : [String]]] = []
     internal var tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.grouped)
@@ -25,7 +25,7 @@ public class ShowDuplicatesTableViewController: UIViewController, UITableViewDat
             tableView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             ])
     }
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
@@ -34,7 +34,7 @@ public class ShowDuplicatesTableViewController: UIViewController, UITableViewDat
         tableView.rowHeight = UITableView.automaticDimension
     }
     
-    override public func viewDidAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         navigationView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 200)
         tableView.frame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64)
