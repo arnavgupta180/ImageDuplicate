@@ -8,6 +8,7 @@
 import UIKit
 
 public class AssetDuplicateFinder: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     internal var tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.grouped)
     internal var navigationView = UIView(frame: .zero)
     override public func loadView() {
@@ -51,7 +52,7 @@ public class AssetDuplicateFinder: UIViewController, UITableViewDataSource, UITa
         self.dismiss(animated: true, completion: nil)
     }
     
-   @objc public class func findDuplicates() {
+    @objc public class func findDuplicates() {
         if let vc = UIApplication.getTopViewControllerForAssetDup() {
             let openDuplicates = AssetDuplicateFinder()
             vc.present(openDuplicates, animated: true, completion: nil)
@@ -59,9 +60,9 @@ public class AssetDuplicateFinder: UIViewController, UITableViewDataSource, UITa
     }
 }
 
-extension AssetDuplicateFinderViewController{
+extension AssetDuplicateFinder{
     // MARK: - Table view data source
-
+    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 2
     }
