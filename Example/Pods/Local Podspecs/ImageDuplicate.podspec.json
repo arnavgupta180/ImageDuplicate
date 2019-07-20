@@ -20,5 +20,10 @@
     "ios": "10.0"
   },
   "source_files": "Source/**/*",
+  "resource_bundles": {
+    "ImageDuplicate": [
+      "Source/**/*.{storyboard,xib}"
+    ]
+  },
   "swift_version": "5.0"
 }

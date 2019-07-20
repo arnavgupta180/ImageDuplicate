@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ImageDuplicate: bdcf1f7ae265dbe9faaa21055bff935a17edb076
+  ImageDuplicate: 6e725ba8bc21b8d5f9c645f1c32e8393788782cb
 
 PODFILE CHECKSUM: d44c1354c0835f28a1108c24fae323425261df58
 

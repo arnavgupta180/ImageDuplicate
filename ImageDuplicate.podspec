@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageDuplicate'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.swift_version = '5.0'
 
   s.summary          = 'Elegant developer tool to find image duplicates'

@@ -7,14 +7,22 @@
 
 import UIKit
 
- class ShowDuplicatesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class ShowDuplicatesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     internal var showDuplicates: [[String : [String]]] = []
     internal var tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.grouped)
     internal var navigationView = UIView(frame: .zero)
     override public func loadView() {
-        self.view = UIView()
-        navigationView = UIView(frame: .zero)
+        self.view = UIView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        settingTableView()
+        settingNavigationView()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
         self.view.addSubview(navigationView)
         self.view.addSubview(tableView)
         NSLayoutConstraint.activate([
@@ -25,32 +33,32 @@ import UIKit
             tableView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             ])
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    private func settingTableView(){
+        tableView.frame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64)
         tableView.dataSource = self
         tableView.delegate = self
         tableView.keyboardDismissMode = .onDrag
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
         tableView.rowHeight = UITableView.automaticDimension
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-        navigationView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 200)
-        tableView.frame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64)
-        let title = UILabel(frame: CGRect(x: UIScreen.main.bounds.midX - 80, y: 30, width: 160, height: 40))
-        title.text = "Same Image names"
+    private func settingNavigationView(){
+        navigationView = UIView(frame: .zero)
+        navigationView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 80
+        )
+        let title = UILabel(frame: CGRect(x: UIScreen.main.bounds.midX - 80, y: 30, width: 200, height: 40))
+        title.text = "Duplicate Images"
         title.backgroundColor = .clear
         title.textColor = .black
-        let button = UIButton(frame: CGRect(x: 20, y: 30, width: 60, height: 40))
+        title.font = UIFont.boldSystemFont(ofSize: 16)
+        let button = UIButton(frame: CGRect(x: 16, y: 30, width: 40, height: 40))
         button.setTitle("Back", for: .normal)
         button.backgroundColor = .clear
         button.setTitleColor(UIColor.black, for: .normal)
         button.addTarget(self, action: #selector(self.buttonTapped), for: .touchUpInside)
+        navigationView.backgroundColor = .white
         navigationView.addSubview(button)
         navigationView.addSubview(title)
     }
-    
     @objc func buttonTapped(sender : UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
